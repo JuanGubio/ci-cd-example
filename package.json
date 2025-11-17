@@ -4,7 +4,7 @@
   "version": "1.0.0",
   "main": "src/index.js",
   "scripts": {
-    "test": "jest --runInBand",
+    "test": "npx jest --runInBand",
     "build": "npm pack --pack-destination dist"
   },
   "devDependencies": {
